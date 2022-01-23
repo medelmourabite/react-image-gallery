@@ -1,0 +1,11 @@
+.Header {
+    display: flex;
+    padding: 1rem;
+    background: #f1f1f1;
+    align-items: center;
+    justify-content: end;
+}
+
+.Header > div{
+    margin: auto 8px;
+}

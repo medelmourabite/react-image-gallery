@@ -1,0 +1,28 @@
+.Pagination {
+    display: flex;
+    border: 1px solid #E8EAED;
+    border-radius: 4px;
+    height: 32px;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.Pagination span {
+    border-radius: 2px 0 0 2px;
+    padding: 0 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.Pagination span:hover {
+    transform: scale(1.1);
+}
+
+.Pagination input {
+    outline: none;
+    height: 20px;
+    border: 1px solid #E8EAED;
+    border-radius: 2px;
+    width: 62px;
+}

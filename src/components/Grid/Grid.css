@@ -1,0 +1,31 @@
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Grid__Column {
+    flex: 25%;
+    max-width: calc(25% - 8px);
+    padding: 0 4px;
+}
+
+
+.Grid__Column>div {
+    vertical-align: middle;
+    margin-top: 6px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .Grid__Column {
+        flex: 50%;
+        max-width: clac(50% - 8px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Grid__Column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
