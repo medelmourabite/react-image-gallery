@@ -5,6 +5,7 @@
     height: 32px;
     align-items: center;
     background: #FFFFFF;
+    justify-content: center;
 }
 
 .Pagination span {

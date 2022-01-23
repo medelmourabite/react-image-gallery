@@ -13,16 +13,20 @@
     flex: 1;
 }
 
+.Header>div h3 {
+    margin: 0;
+}
+
 .Header>div:first-child {
     flex: 2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
     .Header {
         flex-wrap: wrap;
     }
 
     .Header>div {
-        flex: initial;
+        margin: 4px;
     }
 }

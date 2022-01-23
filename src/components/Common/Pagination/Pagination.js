@@ -4,6 +4,7 @@ import { debounce } from '../../../utils';
 
 export const Pagination = ({ page, setPage }) => {
   const inputRef = useRef();
+
   useEffect(() => {
     inputRef.current.value = page;
   }, [page]);
