@@ -16,3 +16,13 @@
 .Header>div:first-child {
     flex: 2;
 }
+
+@media screen and (max-width: 600px) {
+    .Header {
+        flex-wrap: wrap;
+    }
+
+    .Header>div {
+        flex: initial;
+    }
+}
