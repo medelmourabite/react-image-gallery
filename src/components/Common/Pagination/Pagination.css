@@ -13,6 +13,7 @@
     text-align: center;
     cursor: pointer;
     transition: .2s ease;
+    font-size: 14px;
 }
 
 .Pagination span:hover {

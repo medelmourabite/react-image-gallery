@@ -3,11 +3,16 @@
     padding: 1rem;
     background: #f1f1f1;
     align-items: center;
-    justify-content: end;
     border-radius: 4px;
     margin: 4px;
+    text-transform: uppercase;
 }
 
 .Header > div {
     margin: auto 8px;
+    flex: 1;
+}
+
+.Header > div:first-child {
+    flex: 2;
 }
