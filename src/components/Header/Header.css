@@ -8,11 +8,11 @@
     text-transform: uppercase;
 }
 
-.Header > div {
+.Header>div {
     margin: auto 8px;
     flex: 1;
 }
 
-.Header > div:first-child {
+.Header>div:first-child {
     flex: 2;
 }

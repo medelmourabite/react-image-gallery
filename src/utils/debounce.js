@@ -6,4 +6,4 @@ export const debounce = (func, timeout = 300) => {
       func.apply(this, args);
     }, timeout);
   };
-}
+};

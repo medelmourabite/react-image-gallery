@@ -10,7 +10,7 @@
 }
 
 
-.Grid__Column > div {
+.Grid__Column>div {
     vertical-align: middle;
     margin-top: 12px;
     width: 100%;
