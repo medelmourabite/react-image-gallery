@@ -5,21 +5,21 @@
 
 .Grid__Column {
     flex: 25%;
-    max-width: calc(25% - 8px);
-    padding: 0 4px;
+    max-width: calc(25% - 12px);
+    padding: 0 6px;
 }
 
 
-.Grid__Column>div {
+.Grid__Column > div {
     vertical-align: middle;
-    margin-top: 6px;
+    margin-top: 12px;
     width: 100%;
 }
 
 @media screen and (max-width: 800px) {
     .Grid__Column {
         flex: 50%;
-        max-width: clac(50% - 8px);
+        max-width: calc(50% - 12px);
     }
 }
 

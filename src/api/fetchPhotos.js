@@ -8,7 +8,7 @@ export const fetchPhotos = async (query = "", page = 1, filter = null, sort = nu
         let params = {
             client_id: clientId,
             content_filter: "high",
-            per_page: 18,
+            per_page: 32,
             page,
             query,
         };
